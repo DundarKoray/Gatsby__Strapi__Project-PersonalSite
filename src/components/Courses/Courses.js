@@ -4,6 +4,13 @@ import { graphql, useStaticQuery } from "gatsby";
 import styles from "../../css/courses.module.css";
 import Title from "../Title";
 
+/* Add these above ...GatsbyImageSharpFluid_withWebp if cant get images
+                sizes
+                src
+                srcSet
+                srcWebp
+                srcSetWebp
+*/
 const query = graphql`
   {
     allStrapiCourse(sort: { fields: published, order: DESC }) {
@@ -14,7 +21,7 @@ const query = graphql`
         published
         image {
           childImageSharp {
-            fluid {
+            fluid(maxWidth: 600) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -27,7 +34,7 @@ const query = graphql`
 
 const Courses = () => {
     const {allStrapiCourse: {nodes:courses}}= useStaticQuery(query)
-    // console.log(courses)
+    console.log(courses)
     
     // const data = useStaticQuery(query)
     // console.log(data)
