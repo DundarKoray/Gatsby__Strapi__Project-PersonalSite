@@ -1,46 +1,25 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^2.20.18",
-    "gatsby-background-image": "^0.8.14",
-    "gatsby-image": "^2.2.23",
-    "gatsby-plugin-manifest": "^2.2.20",
-    "gatsby-plugin-offline": "^3.0.11",
-    "gatsby-plugin-react-helmet": "^3.1.10",
-    "gatsby-plugin-sharp": "^2.2.27",
-    "gatsby-source-filesystem": "^2.1.28",
-    "gatsby-source-strapi": "0.0.9",
-    "gatsby-transformer-sharp": "^2.2.19",
-    "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1",
-    "react-icons": "^3.7.0"
-  },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "name": "Gatsby__Strapi__Project__PersonalSite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "server": "cd server && npm run develop",
+    "develop": "cd frontend && gatsby clean && gatsby develop",
+    "start": " npm run server & npm run develop",
+    "clean": "cd frontend && gatsby clean",
+    "setup": "cd frontend && gatsby clean && gatsby build",
+    "build": "npm run server & npm run setup"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "git+https://github.com/DundarKoray/Gatsby__Strapi__Project-PersonalSite.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+    "url": "https://github.com/DundarKoray/Gatsby__Strapi__Project-PersonalSite/issues"
+  },
+  "homepage": "https://github.com/DundarKoray/Gatsby__Strapi__Project-PersonalSite#readme"
 }
