@@ -17,6 +17,7 @@ const query = graphql`
       nodes {
         title
         url
+        description
         technologies
         published
         image {

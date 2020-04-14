@@ -16,7 +16,8 @@ const Course = ({title, url, technologies, image}) => {
                 <div className={styles.text}>
                     <h3>{title}</h3>
                     <br/>
-                    <p>{technologies}</p> {/* description */}
+                    <p>{technologies}</p>
+                    <p>{description}</p> {/* description */}
                     <img src={logo} alt="coding addict logo"/>
                     
                 </div>
