@@ -3,7 +3,7 @@ import styles from '../../css/single-course.module.css'
 import Image from 'gatsby-image'
 import logo from '../../images/addict-logo.svg'
 
-const Course = ({title, url, technologies, image}) => {
+const Course = ({title, url, technologies, description, image}) => {
     const mainImage = image.childImageSharp.fluid;
     console.log(mainImage)
     return (
@@ -16,8 +16,8 @@ const Course = ({title, url, technologies, image}) => {
                 <div className={styles.text}>
                     <h3>{title}</h3>
                     <br/>
-                    <p>{technologies}</p>
-                    <p>{description}</p> {/* description */}
+                    {/* <p>{technologies}</p> */}
+                    <p>{description}</p>
                     <img src={logo} alt="coding addict logo"/>
                     
                 </div>
