@@ -1,6 +1,6 @@
-# Personal Site - Built with Gatsby, GraphQL and Strapi
+# Practicing Strapi - Built with Gatsby, GraphQL and Strapi
 
-The main purpose of building this site was to get advanced in Gatsby, and also to learn how to retrive data with GraphQL from Strapi headles content management (CMS).
+The main purpose of building this site was to learn about Strapi headles content management and to recall my knowledge about Gatsby and GraphQL. Basicly all content is stored in Strapi and I am receiving this context with GraphQL and rendering in Gatsby.
 
 # Demo
 Click the link below to see the site. <br/>
@@ -8,9 +8,8 @@ Click the link below to see the site. <br/>
  
 # Preview
 ![Stapi Project - Preview](./src/images/preview.png)
--->
+
 # Technologies
-  * React
   * Gatsby
   * Strapi
   * CSS Modules
