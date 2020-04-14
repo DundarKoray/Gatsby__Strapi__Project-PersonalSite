@@ -7,6 +7,8 @@
   z-index: 1;
   transition: all 0.5s;
 }
+
+
 .navbarFixed {
   position: fixed;
   top: 0;
@@ -88,4 +90,8 @@
 .navIcon:hover {
   color: var(--mainBlack);
   transform: translateY(-10%);
+}
+
+.logo {
+  width: 60px;
 }

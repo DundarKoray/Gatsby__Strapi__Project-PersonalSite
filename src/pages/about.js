@@ -8,7 +8,7 @@ const about = () => {
       <section className={styles.about}>
         <Title title="about"></Title>
         <article className={styles.text}>
-          <p>Hello, I am John and I am a web developer.</p>
+          <p>Hello, I am Koray and I am a web developer.</p>
         </article>
       </section>
     </Layout>
