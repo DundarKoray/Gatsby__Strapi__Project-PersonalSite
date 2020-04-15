@@ -1,22 +1,22 @@
 export default [
   {
     id: Math.random(),
-    text: "home",
+    text: "Anasayfa",
     url: "/",
   },
   {
     id: Math.random(),
-    text: "courses",
+    text: "Servisler",
     url: "/courses",
   },
   {
     id: Math.random(),
-    text: "about",
+    text: "Hakkimda",
     url: "/about",
   },
   {
     id: Math.random(),
-    text: "contact",
+    text: "Iletisim",
     url: "/contact",
   },
 ]

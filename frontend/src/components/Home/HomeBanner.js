@@ -5,16 +5,16 @@ import Banner from "../Banner"
 import Background from "./Background"
 const HomeBanner = () => {
   const { size } = React.useContext(AppContext)
-  if (size < 776) {
+  if (size < 992) {
     return (
       <SmallBanner>
-        <Banner title="project-based web development courses"></Banner>
+        <Banner title="Op.Dr. " subtitle="Kubilay Dündar" subtitle2="Kadın Hastalıkları ve Doğum Uzmanı"></Banner>
       </SmallBanner>
     )
   }
   return (
     <Background>
-      <Banner title="project-based web development courses"></Banner>
+       <Banner title="Op.Dr. " subtitle="Kubilay Dündar" subtitle2="Kadın Hastalıkları ve Doğum Uzmanı"></Banner>
     </Background>
   )
 }

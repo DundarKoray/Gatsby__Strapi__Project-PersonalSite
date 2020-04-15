@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../images/white-logo.webp"
+import logo from "../images/kadin dogum.png"
 import styles from "../css/navbar.module.css"
 import links from "../constants/Links"
 import icons from "../constants/SocialLinks"
@@ -19,9 +19,14 @@ const Navbar = () => {
         }
       >
         <div className={styles.center}>
+          <div style={{display: "flex", alignItems: "center"}}>
           <Link to="/">
-            <img className={styles.logo}src={logo} alt="john smilga logo"></img>
+            <img className={styles.logo}src={logo} alt="Op. Dr. Kubilay Dündar Logo"></img>
           </Link>
+          <Link to="/">
+            <div className={styles.kubiLogo}><span className={styles.opdr}>Op. Dr. </span>Kubilay Dündar</div>
+          </Link>
+          </div>
           <ul className={styles.links}>
             {links.map(link => {
               return (
@@ -33,15 +38,7 @@ const Navbar = () => {
               )
             })}
           </ul>
-          <div className={styles.icons}>
-            {icons.map(icon => {
-              return (
-                <a key={icon.id} href={icon.url} className={styles.navIcon}>
-                  {icon.image}
-                </a>
-              )
-            })}
-          </div>
+          
         </div>
       </nav>
     )
@@ -55,13 +52,19 @@ const Navbar = () => {
         }
       >
         <div className={styles.header}>
+          <div style={{display: "flex", alignItems: "center"}}>
+
           <img className={styles.logo} src={logo} alt="koray dündar"></img>
+          <Link to="/">
+            <div className={styles.kubiLogo}><em><span className={styles.opdr}>Op. Dr. </span>Kubilay Dündar</em></div>
+          </Link>
+          </div>
           <button
             type="button"
             className={styles.toggleBtn}
             onClick={handleOpenSidebar}
           >
-            menu<FaAlignRight className={styles.toggleIcon}></FaAlignRight>
+            <FaAlignRight className={styles.toggleIcon}></FaAlignRight>
           </button>
         </div>
       </nav>

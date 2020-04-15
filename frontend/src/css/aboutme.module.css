@@ -1,0 +1,11 @@
+section {
+    padding: 6rem 0;
+    text-align: center;
+    background: var(--mainGrey);
+}
+
+.center {
+    width: 80vw;
+    margin: 3rem auto;
+    
+  }
