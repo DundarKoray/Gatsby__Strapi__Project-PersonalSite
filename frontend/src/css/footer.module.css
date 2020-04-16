@@ -2,7 +2,7 @@
   text-align: center;
   padding: 2rem;
   color: var(--mainWhite);
-  background: var(--mainBlack);
+  background: var(--primaryColor);
   flex: 2;
 }
 .icons {
@@ -20,6 +20,8 @@
 }
 .info {
   margin: 0.5rem 0;
+  font-size: .7rem;
+  font-weight: 400;
 }
 .link {
   display: inline-block;

@@ -2,7 +2,6 @@ import React from 'react';
 import Title from "../Title";
 import styles from "../../css/services.module.css";
 import Image from "gatsby-image"
-import resim from "../../images/Orijinal P1160695.jpg"
 import { useStaticQuery } from "gatsby"
 
 const Services = () => {

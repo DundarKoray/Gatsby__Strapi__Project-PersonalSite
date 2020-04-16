@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div>
-        <img className={styles.logo} src={logo} alt="koray dündar logo"></img>
+        
       </div>
       {/* <div className={styles.icons}>
         {icons.map(item => {
@@ -18,15 +18,8 @@ const Footer = () => {
         })}
       </div> */}
       <div className={styles.info}>
-        © {new Date().getFullYear()} Koray Dündar. All rights reserved. Built
-        with
-        <a href="https://www.gatsbyjs.org/" className={styles.link}>
-          Gatsby
-        </a>
-         and
-        <a href="https://strapi.io/" className={styles.link}>
-          Strapi
-        </a> 
+        © {new Date().getFullYear()} Op. Dr. Kubilay Dündar - Kadın Hastalıkları ve Doğum Uzmanı - KIRŞEHİR
+        
       </div>
     </footer>
   )

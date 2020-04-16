@@ -95,6 +95,7 @@ a {
 
 .facebook-icon {
   font-size: 30px;
+  margin-top: .2rem !important;
 }
 .background {
   min-height: calc(100vh - 5rem);

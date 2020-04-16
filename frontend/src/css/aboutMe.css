@@ -36,6 +36,11 @@ section {
     align-items: center;
     justify-content: space-around;
   }
+
+  .map-box{
+    width: 42%;
+    height: 650px;
+  }
   
   .about_me_image {
     width: 42%;
