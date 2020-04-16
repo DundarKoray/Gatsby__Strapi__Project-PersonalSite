@@ -8,7 +8,7 @@ const Footer = () => {
       <div>
         <img className={styles.logo} src={logo} alt="koray dündar logo"></img>
       </div>
-      <div className={styles.icons}>
+      {/* <div className={styles.icons}>
         {icons.map(item => {
           return (
             <a key={item.id} href={item.url} className={styles.icon}>
@@ -16,7 +16,7 @@ const Footer = () => {
             </a>
           )
         })}
-      </div>
+      </div> */}
       <div className={styles.info}>
         © {new Date().getFullYear()} Koray Dündar. All rights reserved. Built
         with

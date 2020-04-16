@@ -4,13 +4,15 @@ import HomeBanner from "../components/Home/HomeBanner"
 import LatestCourses from '../components/Home/LatestCourses'
 import AboutMe from '../components/Home/AboutMe'
 import Services from '../components/Home/Services'
+import Contact from '../components/Home/Contact'
 
 const IndexPage = () => (
   <Layout>
     <HomeBanner></HomeBanner>
     <Services></Services>
     <AboutMe></AboutMe>
-    <LatestCourses></LatestCourses>
+    <Contact></Contact>
+    {/* <LatestCourses></LatestCourses> */}
   </Layout>
 )
 
