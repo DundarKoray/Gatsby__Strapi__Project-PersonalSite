@@ -18,7 +18,7 @@ const AboutMe = () => {
     }
   `);
   return (
-    <section>
+    <div className="section">
       <div className="container">
         <Title subtitle="Hakkinda" />
         <div className="about-me-wrapper">
@@ -54,7 +54,7 @@ const AboutMe = () => {
           {/* <div style={imgStyles} className="about_me_image"></div> */}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

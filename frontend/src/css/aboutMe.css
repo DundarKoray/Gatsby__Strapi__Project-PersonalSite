@@ -8,10 +8,10 @@
   
 }
 
-section {
+.section {
   padding: 4rem 0;
   text-align: center;
-  background: var(--mainGrey);
+  background: var(--mainWhite);
 }
 .about-me-text {
     width: 35%;

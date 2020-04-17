@@ -1,5 +1,7 @@
 import React from "react"
 import styles from "../css/banner.module.css"
+import Modal from "../components/Home/Modal"
+
 const Banner = ({ title, subtitle, subtitle2, children }) => {
   return (
     <div className={styles.banner}>
@@ -7,7 +9,8 @@ const Banner = ({ title, subtitle, subtitle2, children }) => {
       <h2 className={styles.subtitle2}>{subtitle2}</h2>
       {children}
       <div style={{textAlign: "center"}}>
-        <a className="btn-primary">Randevu Al</a>
+        {/* <a className="btn-primary">Randevu Al</a> */}
+        <Modal/>
       </div>
     </div>
   )

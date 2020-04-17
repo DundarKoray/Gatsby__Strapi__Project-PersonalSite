@@ -25,5 +25,7 @@ const mapStyles = {
 
   
   export default GoogleApiWrapper({
-    apiKey: ("AIzaSyAckuisQoK_bNm9jk09SIi_NHmpyye__uY")
+    apiKey: (process.env.REACT_APP_GOOGLE_API_KEY)
   })(MapContainer)
+
+  
