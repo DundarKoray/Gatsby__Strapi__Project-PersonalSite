@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react";
 
+
+console.log(process.env.REACT_APP_GOOGLE_API_KEY)
+
 const mapStyles = {
-  
+ 
   
   };
 
